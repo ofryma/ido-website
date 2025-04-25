@@ -117,6 +117,9 @@ const HomePage = () => {
                     <Paragraph>
                       בוגר תואר שני בהצטיינות בלימודי משפט באוניברסיטת בר אילן
                     </Paragraph>
+                    <Paragraph>
+                      שמאי מקרקעין
+                    </Paragraph>
                   </div>
                 </Card>
               </motion.div>
@@ -204,6 +207,30 @@ const HomePage = () => {
                 <img 
                   src="/assets/images/profile_image.jpeg" 
                   alt="עידו מקדסי" 
+                  style={{ 
+                    width: "100%",
+                    borderRadius: "8px",
+                    boxShadow: "0 4px 12px rgba(0,0,0,0.15)"
+                  }}
+                />
+              </motion.div>
+            </Col>
+          </Row>
+        </div>
+
+        {/* Logo Section */}
+        <div style={{ width: "100%", padding: "20px", background: "white" }}>
+          <Row justify="center" style={{ maxWidth: 1200, margin: "0 auto" }}>
+            <Col xs={24} md={6}>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+                style={{ maxWidth: "200px", margin: "0 auto" }}
+              >
+                <img 
+                  src="/assets/images/logo.jpeg" 
+                  alt="Logo" 
                   style={{ 
                     width: "100%",
                     borderRadius: "8px",
