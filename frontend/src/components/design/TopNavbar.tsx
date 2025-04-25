@@ -4,7 +4,6 @@ import { Layout, Typography } from 'antd';
 import { motion } from 'framer-motion';
 import { useTheme } from '../../providers/theme/ThemeProvider';
 import { useNavigate } from 'react-router-dom';
-import { useAppConfig } from '../../providers/app-config/AppConfigProvider';
 
 export interface ITopNavbarProps {
     navigateHomeOnTitlePress?: boolean; 

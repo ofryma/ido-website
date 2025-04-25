@@ -1,9 +1,9 @@
-import { Layout, Button, Typography, Row, Col, Card } from "antd";
+import { Layout, Typography, Row, Col, Card } from "antd";
 import { StyledFooter } from "../components/design/Footer";
 import { TopNavbar } from "../components/design/TopNavbar";
 import { Content } from "antd/es/layout/layout";
 import { motion } from "framer-motion";
-import { ArrowRightOutlined, HomeOutlined, SearchOutlined, TeamOutlined, SafetyOutlined } from '@ant-design/icons';
+import { SearchOutlined, TeamOutlined, SafetyOutlined } from '@ant-design/icons';
 
 const { Title, Paragraph } = Typography;
 

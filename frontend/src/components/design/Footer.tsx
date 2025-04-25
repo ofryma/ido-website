@@ -1,7 +1,6 @@
-import { Layout, Typography, Row, Col, Space, theme } from 'antd';
+import { Layout, Typography, Row, Col, Space } from 'antd';
 import { useTheme } from '../../providers/theme/ThemeProvider';
-import { useAppConfig } from '../../providers/app-config/AppConfigProvider';
-import Icon, { FacebookOutlined, InstagramOutlined, TwitterOutlined, LinkedinOutlined, PhoneOutlined, MailOutlined, EnvironmentOutlined } from '@ant-design/icons';
+import Icon, { FacebookOutlined, InstagramOutlined, PhoneOutlined, MailOutlined, EnvironmentOutlined } from '@ant-design/icons';
 
 export interface IFooterProps {}
 
@@ -10,7 +9,6 @@ const { Paragraph, Title } = Typography;
 
 export function StyledFooter(props: IFooterProps) {
     const { theme } = useTheme();
-    const { companyName } = useAppConfig();
 
     const contactInfo = {
         phone: "⁦+972 50-765-7334",
