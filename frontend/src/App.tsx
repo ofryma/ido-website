@@ -40,7 +40,7 @@ function App() {
             <Routes>
               <Route path="/" element={<HomePage />} />
             </Routes>
-            <SwitchThemeButton />
+            {/* <SwitchThemeButton /> */}
           </Router>
         </AppConfigProvider>
       </ConfigProvider>
