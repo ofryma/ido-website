@@ -2,7 +2,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import { ConfigProvider } from 'antd';
-import { SwitchThemeButton } from "./components/buttons/SwitchThemeButton";
+// import { SwitchThemeButton } from "./components/buttons/SwitchThemeButton";
 import { useTheme } from "./providers/theme/ThemeProvider";
 import { AppConfigProvider } from "./providers/app-config/AppConfigProvider";
 import { ThemeProvider } from "./providers/theme/ThemeProvider"; // Add this
