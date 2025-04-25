@@ -6,6 +6,8 @@ from mangum import Mangum  # AWS Lambda handler
 
 from app.core.config import settings
 
+# Ido Website
+
 
 app = FastAPI(
     title=f"{settings.app_homepage.capitalize()} API",
