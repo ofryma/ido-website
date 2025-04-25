@@ -1,0 +1,1 @@
+from .core.translator import LawTranslator

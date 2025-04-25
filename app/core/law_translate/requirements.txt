@@ -1,0 +1,8 @@
+googletrans==4.0.0rc1
+python-docx
+watchdog
+requests
+pydantic
+pymupdf
+fitz
+sqlalchemy
